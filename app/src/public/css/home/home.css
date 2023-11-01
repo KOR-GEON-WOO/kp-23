@@ -1,0 +1,74 @@
+/* 스타일 전체적으로 적용 */
+body {
+  background-color: #f0f0f0; /* 배경색 지정 */
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* 헤더 스타일 */
+header {
+  background-color: #007bff; /* 헤더 배경색 지정 */
+  color: #fff; /* 헤더 텍스트 색상 */
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 헤더 로고 스타일 */
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+/* 센서 데이터 영역 스타일 */
+.sensor-data {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 컬러 컨트롤 영역 스타일 */
+.color-control {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 제어 버튼 영역 스타일 */
+.control-buttons {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 버튼 스타일 및 호버 효과 추가 */
+.btn {
+  font-size: 24px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* 버튼 색상 스타일 */
+#waterPumpBtn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+#fanOnBtn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+#fanOffBtn {
+  background-color: #dc3545;
+  color: #fff;
+}
